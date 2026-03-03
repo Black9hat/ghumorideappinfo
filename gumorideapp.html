@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ghumo – Smart Ride Booking Platform</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f8fafc;
+  color: #1e293b;
+  line-height: 1.6;
+}
+
+/* HEADER */
+header {
+  background: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.logo {
+  width: 180px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #475569;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 14px 28px;
+  background: #f97316;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background: #ea580c;
+}
+
+/* SECTIONS */
+section {
+  padding: 80px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  gap: 30px;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+/* CARDS */
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  margin-bottom: 15px;
+  color: #0f172a;
+}
+
+/* HIGHLIGHT SECTION */
+.highlight-section {
+  background: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.highlight-section h2 {
+  margin-bottom: 20px;
+}
+
+/* FOOTER */
+footer {
+  background: #111827;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 5px 0;
+  opacity: 0.8;
+}
+
+/* RESPONSIVE */
+@media(max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<header>
+  <img src="logo.png" alt="Ghumo Logo" class="logo">
+  <h1>Ghumo</h1>
+  <p>Smart • Affordable • Reliable Ride Booking Platform</p>
+  <a href="#contact" class="btn">Contact Us</a>
+</header>
+
+<!-- ABOUT -->
+<section>
+  <h2 class="section-title">About Ghumo</h2>
+  <p style="text-align:center; max-width:800px; margin:auto;">
+    Ghumo is a modern ride-booking and parcel delivery platform connecting 
+    customers with verified drivers. We provide short rides, long-distance 
+    trips, and fast parcel delivery with real-time tracking and secure payments.
+    The mobile application is currently in <strong>Google Play Closed Testing Phase</strong>.
+  </p>
+</section>
+
+<!-- SERVICES -->
+<section>
+  <h2 class="section-title">Our Services</h2>
+  <div class="grid grid-3">
+
+    <div class="card">
+      <h3>🚘 Instant Ride Booking</h3>
+      <p>Book rides instantly with real-time tracking and transparent pricing.</p>
+    </div>
+
+    <div class="card">
+      <h3>📦 Parcel Delivery</h3>
+      <p>Fast and reliable parcel delivery using our verified driver network.</p>
+    </div>
+
+    <div class="card">
+      <h3>📍 Live Tracking</h3>
+      <p>Track rides and deliveries in real time with accurate location updates.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- WHY GHUMO -->
+<section>
+  <h2 class="section-title">Why Choose Ghumo?</h2>
+  <div class="grid grid-3">
+
+    <div class="card">
+      <h3>💰 Transparent Pricing</h3>
+      <p>No hidden charges. Clear fare breakdown before confirming ride.</p>
+    </div>
+
+    <div class="card">
+      <h3>🛡 Secure Payments</h3>
+      <p>All transactions are processed securely via trusted payment gateways.</p>
+    </div>
+
+    <div class="card">
+      <h3>👨‍✈️ Verified Drivers</h3>
+      <p>Drivers undergo document verification before activation.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- DRIVER SECTION -->
+<section class="highlight-section">
+  <h2>Empowering Drivers</h2>
+  <p>
+    Ghumo ensures transparent driver earnings with commission-based 
+    revenue sharing. Drivers can track daily income, incentives, and 
+    ride history directly in the app.
+  </p>
+</section>
+
+<!-- BUSINESS MODEL -->
+<section>
+  <h2 class="section-title">Business Model</h2>
+  <p style="text-align:center; max-width:800px; margin:auto;">
+    Ghumo operates on a commission-based model where a small percentage 
+    is charged per completed ride or delivery. We focus on affordability 
+    for customers and fair earnings for drivers.
+  </p>
+</section>
+<!-- PAYMENTS -->
+<section>
+  <h2 class="section-title">Secure Payments</h2>
+  <div class="grid grid-3">
+
+    <div class="card">
+      <h3>💳 Multiple Payment Options</h3>
+      <p>Supports UPI, Debit/Credit Cards and digital payment methods.</p>
+    </div>
+
+    <div class="card">
+      <h3>🔐 Secure Processing</h3>
+      <p>Transactions are processed through PCI-compliant payment gateway partners.</p>
+    </div>
+
+    <div class="card">
+      <h3>🧾 Transparent Billing</h3>
+      <p>Fare breakdown is shown before payment confirmation.</p>
+    </div>
+
+  </div>
+</section>
+<!-- CONTACT -->
+<section id="contact">
+  <h2 class="section-title">Contact Us</h2>
+  <p style="text-align:center;">
+    📧 startechindias1@gmail.com <br>
+    📍 India <br>
+    🚀 Currently in Google Play Closed Testing
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 Ghumo. All rights reserved.</p>
+  <p>Ride Smart. Ride Safe. Ride Ghumo.</p>
+</footer>
+
+</body>
+</html>
